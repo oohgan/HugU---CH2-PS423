@@ -1,0 +1,30 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/656241aaa35d3d5673000005
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Maharani",
+    "location": "Jakarta"
+
+}
+
+###
+
+DELETE http://localhost:3000/users/656235e3460a0f7e7279b4dd
+
+###
+
+PATCH http://localhost:3000/users/656241aaa35d3d5673000005
+Content-Type: application/json
+
+{
+    "name": "1 Million Lucky"
+
+}
