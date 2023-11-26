@@ -1,2 +1,3 @@
-# -CH2-PS423-
+# HugU - Take care of your mental health
+
 Capstone Project Bangkit
