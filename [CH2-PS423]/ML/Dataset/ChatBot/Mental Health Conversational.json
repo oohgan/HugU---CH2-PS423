@@ -41,17 +41,18 @@
     {
       "tag": "evening",
       "patterns": [
-        "Selamat malam",
-        "Malam"
+        "Selamat sore",
+        "Sore"
       ],
-      "responses": ["Selamat malam. Bagaimana harimu?"]
+      "responses": ["Selamat sore. Bagaimana hari mu?"]
     },
     {
       "tag": "night",
       "patterns": [
         "Selamat malam",
         "Good night",
-        "Selamat tidur"
+        "Selamat tidur",
+        "Selamat malam. Bagaimana harimu?"
       ],
       "responses": [
         "Selamat malam. Tidur nyenyak ",
@@ -98,12 +99,9 @@
       "tag": "about",
       "patterns": [
         "Siapa kamu?",
-        "Apa yang kamu?",
-        "Siapa kamu?",
         "Ceritakan lebih banyak lagi tentang dirimu.",
         "Siapa namamu?",
         "Aku harus memanggilmu apa?",
-        "Siapa namamu?",
         "Ceritakan tentang dirimu"
       ],
       "responses": [
@@ -177,7 +175,6 @@
       "tag": "stressed",
       "patterns": [
         "Saya sangat stres",
-        "Saya sangat stres",
         "Aku merasa mandek",
         "Saya masih merasa stres",
         "Aku sangat kelelahan"
@@ -227,7 +224,6 @@
         "Saya senang.",
         "Saya merasa senang.",
         "Aku baik-baik saja.",
-        "Happy",
         "Saya baik-baik saja",
         "Saya merasa baik-baik saja"
       ],
@@ -242,12 +238,9 @@
       "patterns": [
         "Oh begitu.",
         "Oke",
-        "Oke",
         "Bagus",
         "Apa pun",
-        "K",
         "Bagus",
-        "Ya",
         "Ya",
         "Tidak",
         "tidak terlalu"
@@ -698,8 +691,10 @@
     {
       "tag": "fact_8",
       "patterns": [
-        "Apa itu kesehatan mental?",
-        "Apa yang dimaksud dengan kesehatan mental?"
+        "Apa itu penyakit mental?",
+        "Apa yang dimaksud dengan penyakit kesehatan mental?",
+        "Apa yang dimaksud dengan gangguan mental?",
+        "Apa yang dimaksud dengan gangguan jiwa?"
       ],
       "responses": [
         "Penyakit mental adalah kondisi kesehatan yang mengganggu pemikiran, emosi, hubungan, dan fungsi harian seseorang. Mereka terkait dengan ketidaknyamanan dan kemampuan yang berkurang untuk terlibat dalam kegiatan sehari-hari. Penyakit mental bervariasi dalam tingkat keparahan: ada yang cukup ringan dan hanya mengganggu beberapa aspek kehidupan, seperti beberapa jenis fobia. Di ujung spektrum lainnya terdapat penyakit mental serius yang menyebabkan gangguan fungsi utama dan intervensi dengan kehidupan sehari-hari. Ini termasuk gangguan seperti depresi berat, skizofrenia, dan gangguan bipolar, yang mungkin memerlukan perawatan di rumah sakit. Penting untuk diketahui bahwa penyakit mental adalah kondisi medis yang tidak ada hubungannya dengan karakter, kecerdasan, atau kemauan seseorang. Sama seperti diabetes adalah gangguan pankreas, penyakit mental adalah kondisi medis yang disebabkan oleh biologi otak. Sama seperti cara mengobati diabetes dengan obat dan insulin, penyakit mental dapat diobati dengan kombinasi obat dan dukungan sosial. Pengobatan ini sangat efektif, dengan 70-90 persen individu yang menjalani pengobatan mengalami penurunan gejala dan peningkatan kualitas hidup. Dengan pengobatan yang tepat, sangat mungkin bagi seseorang dengan penyakit mental untuk mandiri dan sukses.",
@@ -1050,15 +1045,6 @@
       ],
       "responses": [
         "Tindakan self harm dikategorikan menjadi 3 macam berdasarkan tingkat keparahannya, yaitu major self mutilation, stereotypic self injury, dan superficial self mutilation"
-      ]   
-    },
-    {
-      "tag": "",
-      "patterns": [
-        
-      ],
-      "responses": [
-        
       ]   
     }
   ]
