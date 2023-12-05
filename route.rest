@@ -1,4 +1,4 @@
-GET http://localhost:3000/users
+GET http://localhost:3000/signup
 
 ###
 
@@ -6,18 +6,18 @@ GET http://localhost:3000/users/656241aaa35d3d5673000005
 
 ###
 
-POST http://localhost:3000/users
+POST http://localhost:3000/signup
 Content-Type: application/json
 
 {
-    "name": "Maharani",
-    "location": "Jakarta"
+    "email": "asdas@asdasd.asd",
+    "password": "123456"
 
 }
 
 ###
 
-DELETE http://localhost:3000/users/656235e3460a0f7e7279b4dd
+DELETE http://localhost:3000/users/65624193db222ab63d74f363
 
 ###
 

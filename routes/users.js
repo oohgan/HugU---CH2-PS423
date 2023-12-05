@@ -1,78 +1,70 @@
 const express = require('express')
-const router = express.Router()
+const passport = require('passport');
+const jwt = require('jsonwebtoken');
+const JWTstrategy = require('passport-jwt').Strategy;
+const ExtractJWT = require('passport-jwt').ExtractJwt;
 const userModel = require('../models/userModel')
 
-// Getting all
-router.get('/', async (req, res) => {
-  try {
-    const users = await userModel.find()
-    res.json(users)
-  } catch (err) {
-    res.status(500).json({ message: err.message })
-  }
-})
+const router = express.Router();
 
-// Getting One
-router.get('/:id', getUser, (req, res) => {
-  res.json(res.user)
-})
+router.post(
+  '/signup',
+  passport.authenticate('signup', { session: false }),
+  async (req, res, next) => {
+    res.json({
+      message: 'Signup successful',
+      user: req.user
+    });
+  }
+);
 
-// Creating one
-router.post('/', async (req, res) => {
-  const user = new userModel({
-    name: req.body.name,
-    location: req.body.location
-  })
-  try {
-    const newUser = await user.save()
-    res.status(201).json(newUser)
-  } catch (err) {
-    res.status(400).json({ message: err.message })
-  }
-})
+router.post(
+  '/login',
+  async (req, res, next) => {
+    passport.authenticate(
+      'login',
+      async (err, user, info) => {
+        try {
+          if (err || !user) {
+            const error = new Error('An error occurred.');
 
-// Updating One
-router.patch('/:id', getUser, async (req, res) => {
-  if (req.body.name != null) {
-    res.user.name = req.body.name
-  }
-  if (req.body.location != null) {
-    res.user.location = req.body.location
-  }
-  try {
-    const updatedUser = await res.user.save()
-    res.json(updatedUser)
-  } catch (err) {
-    res.status(400).json({ message: err.message })
-  }
-})
+            return next(error);
+          }
 
-// Deleting One
-router.delete('/:id', getUser, async (req, res) => {
-  try {
-    await res.user.deleteOne()
-    res.json({ message: 'Deleted user' })
-  } catch (err) {
-    res.status(500).json({ message: err.message })
-  }
-})
+          req.login(
+            user,
+            { session: false },
+            async (error) => {
+              if (error) return next(error);
 
-async function getUser(req, res, next) {
-  let user
-  try {
-    user = await userModel.findById(req.params.id)
-    if (user == null) {
-      return res.status(404).json({ message: 'Cannot find user' })
+              const body = { _id: user._id, email: user.email };
+              const token = jwt.sign({ user: body }, 'TOP_SECRET');
+
+              return res.json({ token });
+            }
+          );
+        } catch (error) {
+          return next(error);
+        }
+      }
+    )(req, res, next);
+  }
+);
+
+passport.use(
+  new JWTstrategy(
+    {
+      secretOrKey: 'TOP_SECRET',
+      jwtFromRequest: ExtractJWT.fromUrlQueryParameter('secret_token')
+    },
+    async (token, done) => {
+      try {
+        return done(null, token.user);
+      } catch (error) {
+        done(error);
+      }
     }
-  } catch (err) {
-    if (user == undefined) {
-      return res.status(404).json({ message: "Cannot find user" })
-    }
-    return res.status(500).json({ message: err.message })
-  }
-
-  res.user = user
-  next()
-}
+  )
+);
 
 module.exports = router
