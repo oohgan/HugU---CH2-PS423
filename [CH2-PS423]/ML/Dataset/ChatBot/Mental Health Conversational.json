@@ -41,10 +41,10 @@
     {
       "tag": "evening",
       "patterns": [
-        "Selamat malam",
-        "Malam"
+        "Selamat sore",
+        "Sore"
       ],
-      "responses": ["Selamat malam. Bagaimana harimu?"]
+      "responses": ["Selamat sore. Bagaimana hari mu?"]
     },
     {
       "tag": "night",
@@ -63,7 +63,6 @@
       "patterns": [
         "Selamat tinggal",
         "Sampai jumpa lagi",
-        "Selamat tinggal",
         "Sayonara",
         "ok bye",
         "Selamat tinggal kalau begitu"
@@ -98,12 +97,9 @@
       "tag": "about",
       "patterns": [
         "Siapa kamu?",
-        "Apa yang kamu?",
-        "Siapa kamu?",
         "Ceritakan lebih banyak lagi tentang dirimu.",
         "Siapa namamu?",
         "Aku harus memanggilmu apa?",
-        "Siapa namamu?",
         "Ceritakan tentang dirimu"
       ],
       "responses": [
@@ -133,8 +129,7 @@
       ],
       "responses": [
         "Saya diciptakan oleh >.",
-        "Saya dilatih tentang kumpulan data teks menggunakan teknik Pembelajaran Mendalam & Pemrosesan Bahasa Alami",
-        "Pertanyaan sebenarnya adalah: Siapa yang menciptakanmu?"
+        "Saya dilatih tentang kumpulan data teks menggunakan Deep Learning & Natural Language Processing techniques"
       ]
     },
     {
@@ -143,7 +138,6 @@
         "Bisakah kamu membantuku?",
         "tolong bantu aku",
         "Bisakah kamu menolong?",
-        "Apa yang bisa kamu lakukan untuk saya?",
         "Aku butuh dukungan",
         "Saya butuh bantuan",
         "Tolong dukung aku"
@@ -176,7 +170,6 @@
     {
       "tag": "stressed",
       "patterns": [
-        "Saya sangat stres",
         "Saya sangat stres",
         "Aku merasa mandek",
         "Saya masih merasa stres",
@@ -227,7 +220,6 @@
         "Saya senang.",
         "Saya merasa senang.",
         "Aku baik-baik saja.",
-        "Happy",
         "Saya baik-baik saja",
         "Saya merasa baik-baik saja"
       ],
@@ -242,12 +234,9 @@
       "patterns": [
         "Oh begitu.",
         "Oke",
-        "Oke",
         "Bagus",
         "Apa pun",
-        "K",
         "Bagus",
-        "Ya",
         "Ya",
         "Tidak",
         "tidak terlalu"
@@ -395,7 +384,9 @@
     {
       "tag": "hate-me",
       "patterns": [
-        "Kamu membenciku", "Aku tahu kamu membenciku", "Kamu tidak menyukaiku"
+        "Kamu membenciku", 
+        "Aku tahu kamu membenciku", 
+        "Kamu tidak menyukaiku"
       ],
       "responses": [
         "Kenapa menurutmu begitu?",
@@ -471,6 +462,7 @@
       "patterns": [
         "Di mana kamu?",
         "Di mana kamu tinggal?",
+        "Dimana kamu tinggal?",
         "Apa lokasimu?"
       ],
       "responses": [
@@ -496,7 +488,8 @@
     {
       "tag": "ask",
       "patterns": [
-        "Bolehkah saya bertanya sesuatu?"
+        "Bolehkah saya bertanya sesuatu?",
+        "Apakah saya boleh bertanya sesuatu"
       ],
       "responses": [
         "Tentu. Aku akan berusaha semaksimal mungkin untuk menjawabmu",
@@ -507,10 +500,10 @@
       "tag": "problem",
       "patterns": [
         "Mungkin karena ujianku sudah dekat. Aku merasa stres karena menurutku aku belum mempersiapkan diri dengan cukup baik.",
-        "mungkin karena ujianku"
+        "Mungkin karena ujianku"
       ],
       "responses": [
-        "Aku mengerti. Apakah kamu sudah mengambil pendekatan untuk tidak merasa seperti ini?"
+        "Aku mengerti. Apakah kamu sudah mengambil solusi hal ini?"
       ]
     },
     {
@@ -528,6 +521,7 @@
       "tag": "learn-more",
       "patterns": [
         "ok tentu. aku ingin mempelajarinya lebih lanjut.",
+        "Ya, saya ingin mempelajarinya",
         "ya, aku ingin mempelajarinya lebih lanjut.",
         "Saya ingin mempelajarinya lebih lanjut."
       ],
@@ -650,9 +644,8 @@
       "patterns": [
         "Bagaimana saya tahu jika saya mengalami depresi? ",
         "Apakah saya depresi?",
-        "Apakah saya menderita depresi?",
-        "Apakah saya sakit mental?"
-      ],
+        "Apakah saya menderita depresi?"
+        ],
       "responses": [
         "Untuk diagnosis depresi, seseorang perlu mengalami suasana hati yang rendah atau kehilangan minat atau kesenangan dalam hidup setidaknya selama 2 minggu. Juga, mereka akan mengalami gejala-gejala berikut: perasaan sedih, putus asa, atau mudah tersinggung hampir setiap hari setiap hari."
       ]
@@ -698,8 +691,10 @@
     {
       "tag": "fact_8",
       "patterns": [
-        "Apa itu kesehatan mental?",
-        "Apa yang dimaksud dengan kesehatan mental?"
+        "Apa itu penyakit mental?",
+        "Apa yang dimaksud dengan penyakit kesehatan mental?",
+        "Apa yang dimaksud dengan gangguan mental?",
+        "Apa yang dimaksud dengan gangguan jiwa?"
       ],
       "responses": [
         "Penyakit mental adalah kondisi kesehatan yang mengganggu pemikiran, emosi, hubungan, dan fungsi harian seseorang. Mereka terkait dengan ketidaknyamanan dan kemampuan yang berkurang untuk terlibat dalam kegiatan sehari-hari. Penyakit mental bervariasi dalam tingkat keparahan: ada yang cukup ringan dan hanya mengganggu beberapa aspek kehidupan, seperti beberapa jenis fobia. Di ujung spektrum lainnya terdapat penyakit mental serius yang menyebabkan gangguan fungsi utama dan intervensi dengan kehidupan sehari-hari. Ini termasuk gangguan seperti depresi berat, skizofrenia, dan gangguan bipolar, yang mungkin memerlukan perawatan di rumah sakit. Penting untuk diketahui bahwa penyakit mental adalah kondisi medis yang tidak ada hubungannya dengan karakter, kecerdasan, atau kemauan seseorang. Sama seperti diabetes adalah gangguan pankreas, penyakit mental adalah kondisi medis yang disebabkan oleh biologi otak. Sama seperti cara mengobati diabetes dengan obat dan insulin, penyakit mental dapat diobati dengan kombinasi obat dan dukungan sosial. Pengobatan ini sangat efektif, dengan 70-90 persen individu yang menjalani pengobatan mengalami penurunan gejala dan peningkatan kualitas hidup. Dengan pengobatan yang tepat, sangat mungkin bagi seseorang dengan penyakit mental untuk mandiri dan sukses.",
@@ -714,7 +709,7 @@
       ],
       "responses": [
         "Diperkirakan penyakit mental mempengaruhi 1 dari 5 orang dewasa di Amerika, dan 1 dari 24 orang dewasa mempunyai penyakit mental yang serius. Penyakit mental tidak membeda-bedakan; penyakit ini dapat menyerang siapa saja, tanpa memandang jenis kelamin, usia, pendapatan, status sosial, etnis, agama, orientasi seksual, atau latar belakang. Meskipun penyakit mental dapat menyerang siapa saja, kondisi tertentu mungkin lebih umum terjadi pada populasi yang berbeda. Misalnya, gangguan makan cenderung lebih sering terjadi pada wanita, sedangkan gangguan seperti gangguan pemusatan perhatian/hiperaktivitas lebih banyak terjadi pada anak-anak. Selain itu, semua usia rentan, namun kelompok muda dan tua merupakan kelompok yang paling rentan. Penyakit mental biasanya menyerang individu pada usia puncak, dengan 75 persen kondisi kesehatan mental berkembang pada usia 24 tahun. Hal ini membuat identifikasi dan pengobatan gangguan mental menjadi sangat sulit, karena perubahan kepribadian dan perilaku normal pada masa remaja mungkin menutupi gejala penyakit mental. suatu kondisi kesehatan mental. Orang tua dan pengasuh harus menyadari fakta ini, dan memperhatikan perubahan suasana hati, kepribadian, kebiasaan pribadi, dan penarikan diri dari pergaulan anak mereka. Jika hal ini terjadi pada anak di bawah 18 tahun, hal ini disebut sebagai gangguan emosional serius (GED).",
-        "Indonesia National Adolescent Mental Health Survey (I-NAMHS), survei kesehatan mental nasional pertama yang mengukur angka kejadian gangguan mental pada remaja 10 - 17 tahun di Indonesia, menunjukkan bahwa satu dari tiga remaja Indonesia memiliki masalah kesehatan mental sementara satu dari dua puluh remaja Indonesia memiliki gangguan mental dalam 12 bulan terakhir. Angka ini setara dengan 15,5 juta dan 2,45 juta remaja. Remaja dalam kelompok ini adalah remaja yang terdiagnosis dengan gangguan mental sesuai dengan panduan Diagnostic and Statistical Manual of Mental Disorders Edisi Kelima (DSM-5) yang menjadi panduan penegakan diagnosis gangguan mental di Indonesia."
+        "Berdasarkan Indonesia National Adolescent Mental Health Survey (I-NAMHS), survei kesehatan mental nasional pertama yang mengukur angka kejadian gangguan mental pada remaja 10 - 17 tahun di Indonesia, menunjukkan bahwa satu dari tiga remaja Indonesia memiliki masalah kesehatan mental sementara satu dari dua puluh remaja Indonesia memiliki gangguan mental dalam 12 bulan terakhir. Angka ini setara dengan 15,5 juta dan 2,45 juta remaja. Remaja dalam kelompok ini adalah remaja yang terdiagnosis dengan gangguan mental sesuai dengan panduan Diagnostic and Statistical Manual of Mental Disorders Edisi Kelima (DSM-5) yang menjadi panduan penegakan diagnosis gangguan mental di Indonesia."
       ]
     },
     {
@@ -792,7 +787,8 @@
     {
       "tag": "fact_17",
       "patterns": [
-        "Apa perbedaan antara profesional kesehatan mental?"
+        "Apa perbedaan antara profesional kesehatan mental?",
+        "Perbedaan ahli kesehatan mental"
       ],
       "responses": [
         "Ada banyak jenis profesional kesehatan mental. Beragamnya penyedia dan layanan mereka mungkin membingungkan. Masing-masing memiliki tingkat pendidikan, pelatihan, dan mungkin memiliki bidang keahlian yang berbeda. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan beberapa riset."
@@ -933,133 +929,6 @@
       "responses": [
         "Kesedihan merupakan reaksi normal terhadap kehilangan, kekecewaan, masalah, atau situasi sulit lainnya. Merasa sedih dari waktu ke waktu hanyalah bagian lain dari menjadi manusia. Dalam kasus ini, perasaan sedih akan hilang dengan cepat dan Anda dapat menjalani kehidupan sehari-hari. Cara lain untuk mengungkapkan kesedihan adalah dengan merasa sedih, sedih, atau sedih. Seseorang mungkin mengatakan bahwa mereka merasa tertekan, tetapi jika perasaan itu hilang dengan sendirinya dan tidak berdampak besar pada kehidupan, mungkin hal itu tidak terjadi. t penyakit depresi. Depresi adalah penyakit mental yang memengaruhi suasana hati Anda, cara Anda memahami diri sendiri, dan cara Anda memahami serta berhubungan dengan hal-hal di sekitar Anda. Bisa juga dengan nama yang berbeda, seperti depresi klinis, gangguan depresi mayor, atau depresi berat. Depresi bisa muncul tanpa sebab dan berlangsung dalam jangka waktu lama. Ini lebih dari sekedar kesedihan atau suasana hati yang buruk. Orang yang mengalami depresi mungkin merasa tidak berharga atau putus asa. Mereka mungkin merasa bersalah tanpa alasan. Beberapa orang mungkin mengalami depresi sebagai kemarahan atau mudah tersinggung. Mungkin sulit untuk berkonsentrasi atau mengambil keputusan. Kebanyakan orang kehilangan minat pada hal-hal yang dulu mereka sukai dan mungkin mengasingkan diri dari orang lain. Ada juga tanda-tanda fisik depresi, seperti masalah tidur, nafsu makan dan energi, serta rasa sakit atau nyeri yang tidak dapat dijelaskan. Beberapa orang mungkin mengalami pemikiran sulit tentang kematian atau mengakhiri hidup mereka (bunuh diri). Depresi berlangsung lebih dari dua minggu, biasanya tidak hilang dengan sendirinya, dan berdampak pada kehidupan Anda. Ini penyakit yang nyata dan sangat bisa diobati. Penting untuk mencari bantuan jika Anda khawatir tentang depresi."
       ]
-    },
-    {
-      "tag": "panic_disorder",
-      "patterns": [
-        "Apa itu panic disorder?",
-        "Apa itu panic attack?"
-      ],
-      "responses": [
-        "Panic disorder adalah suatu  ganguan  yang  ditandai  dengan  serangan  kecemasan  yang  datang  secara  tiba-tiba  tanpa  diduga.",
-        "Panic attack merupakan  salah  satu  gangguan  yang  ditandai  denganadanya serangan takut  atau  cemas  secara  tiba-tiba,  dadakan,  dan  terus  menerus  akan  perasaan  datangnya bahaya, ketakutan berlebih atau serangan jantung."
-      ]
-    },
-    {
-      "tag": "panic_feels",
-      "patterns": [
-        "Apa yang dirasakan saat mengalami panic disorder?",
-        "Apa yang dirasakan saat mengalami panic attack?"
-      ],
-      "responses": [
-        "Mudah berkeringat,  merasakan  sakit  di  dada,  detak  jantung  tidak  teratur,  dan  perasaan  tersedak,  yang  dapat  membuat  seseorang  merasa  seperti  sedang  mengalami  serangan  jantung.  Pikiran  akan  terjadinya  kepanikan  seperti  itu  di  depan  umum,  orang-orang  yang  mengidap  gejala  panic  disorder  jadi  takut  untuk meninggalkan rumah."
-      ]
-    },
-    {
-      "tag": "anxiety_panic",
-      "patterns": [
-        "Apa bedanya panic attack dan anxiety disorder?",
-        "Apakah perbedaan dari panic attack dan anxiety disorder?",
-        "Apakah panic attack dan axiety disorder adalah hal yang sama?"
-      ],
-      "responses": [
-        "Panic attack dan anxiety disorder merupakan psychological disorder. Bedanya, anxiety disorder adalah istilah untuk menjelaskan gangguan mental yang memiliki ciri khas gejala kecemasan. Semantara itu, panic attack adalah suatu perasaan takut yang muncul secara tiba-tiba dan terasa intens, kadang tanpa penyebab yang jelas."
-      ]   
-    },
-    {
-      "tag": "panic_prediction",
-      "patterns": [
-        "Mengapa saya merasa berkeringat, merasakan sakit di dada, detak jantung tidak teratur?"
-      ],
-      "responses": [
-        "Kemungkinan Anda sedang mengalami panik. Apa hal yang sedang Anda hadapi?"
-      ]   
-    },
-    {
-      "tag": "panic_solution",
-      "patterns": [
-        "Bagaimana cara mengatasi panic attack?",
-        "Bagaimana cara mengatasi panic disorder?",
-        "Apa yang harus saya lakukan saat panik?",
-        "Apa yang harus saya lakukan saat mengalami panic disorder?"
-      ],
-      "responses": [
-        "Berhenti sejenak untuk cari tahu pemicunya. Lalu, amati pikiran dan rasa yang mengikutinya. Coba sadari apakah hal ini dapat diatasi atau sulit untuk diatasi. Coba lakukan relaksasi otot dan atur pernapasan. Tarik napas yang dalam, lalu keluarkan perlahan. Buat tubuh Anda menjadi lebih rileks.",
-        "Bernapas dalam-dalam dapat membantu kamu mengendalikan gejala serangan panik.",
-        "Aroma yang menenangkan dapat membantu kamu meredakan kecemasan dengan memanfaatkan indra penciuman.",
-        "Selama gejala serangan panik berlangsung, kamu harus mengingat bahwa perasaan ini akan berlalu dan tidak menyebabkan kerusakan fisik, meski betapa menakutkannya perasaanmu saat ini."
-      ]   
-    },
-    {
-      "tag": "panic_prevention",
-      "patterns": [
-        "Bagaimana saya dapat mencegah serangan panik?",
-        "Bagaimana saya dapat mencegah panic attack?"
-      ],
-      "responses": [
-        "Anda dapat melakukan beberapa langkah untuk mencegah serangan panik. Berikut adalah beberapa saran yang dapat Anda pertimbangkan:\n1. Pernafasan Dalam: Latih teknik pernafasan dalam dan lambat. Pernafasan dalam dapat membantu menenangkan sistem saraf Anda.\n2. Latihan Relaksasi: Terlibat dalam latihan relaksasi seperti meditasi atau yoga untuk mengurangi tingkat stres secara keseluruhan.\n3. Hindari Pemicu: Identifikasi pemicu serangan panik Anda dan hindari sebisa mungkin. Ini bisa mencakup situasi tertentu, makanan atau minuman tertentu, atau bahkan pikiran tertentu.\n4. Olahraga Teratur: Rutin berolahraga dapat membantu mengurangi tingkat stres dan meningkatkan kesehatan mental secara keseluruhan.\n5. Tidur Cukup: Pastikan Anda mendapatkan cukup tidur setiap malam. Kekurangan tidur dapat meningkatkan risiko serangan panik.\n6. Hindari Kafein dan Stimulan Lainnya: Batasi konsumsi kafein dan stimulan lainnya, karena dapat meningkatkan kecemasan.\n"
-      ]   
-    },
-    {
-      "tag": "self_harm",
-      "patterns": [
-        "Apa itu self-harm?"
-      ],
-      "responses": [
-        "Self harm adalah tindakan seseorang berupa menyakiti atau bahkan melukai dirinya sendiri."
-      ]   
-    },
-    {
-      "tag": "self_harm_symptom",
-      "patterns": [
-        "Apa saja gejala self-harm?",
-        "Tanda-tanda self-harm",
-        "Ciri-ciri seorang menyakiti diri sendiri",
-        "Bagaimana mengenali gejala self-harm?"
-      ],
-      "responses": [
-        "Gejala self-harm dapat bervariasi, namun beberapa tanda umum melibatkan perilaku yang merusak diri sendiri secara sengaja. Beberapa gejala self-harm meliputi:\n1. Luka-luka atau goresan yang tidak dapat dijelaskan\n2. Penggunaan benda tajam untuk menyakiti diri sendiri\n3. Penyayatan atau membakar kulit\n4. Menunjukkan ketidakmampuan untuk mengendalikan impuls\n5. Menyembunyikan luka atau bekas luka dengan pakaian\n6. Perubahan drastis dalam perilaku atau kepribadian\n7. Isolasi sosial atau penarikan diri\n8. Kesulitan mengatasi emosi\n9. Peningkatan kecenderungan untuk menyakiti diri sendiri\nJika Anda atau seseorang yang Anda kenal mengalami gejala self-harm, sangat penting untuk mencari bantuan profesional segera.",
-        "Gejala self-harm dapat bervariasi, tetapi beberapa tanda umum melibatkan perilaku yang merugikan diri sendiri secara fisik. Beberapa gejala yang mungkin terjadi termasuk:\n1. Luka-luka fisik yang tidak dapat dijelaskan\n2. Potongan-potongan atau luka bakar di tangan atau lengan\n3. Pemotongan diri sendiri dengan benda-benda tajam\n4. Penolakan untuk menunjukkan bagian tubuh tertentu\n5. Pemakaian pakaian panjang bahkan dalam cuaca panas untuk menyembunyikan luka\n6. Perubahan perilaku, seperti penarikan diri, perubahan mood, atau depresi\nJika Anda atau seseorang yang Anda kenal mengalami gejala ini, penting untuk mencari bantuan profesional segera."        
-      ]   
-    },
-    {
-      "tag": "self_harm_prevention",
-      "patterns": [
-        "Bagaimana saya dapat mencegah self harm?",
-        "Bagaimana saya dapat mencegah untuk melukai diri saya sendiri?"
-      ],
-      "responses": [
-        "Karena umumnya dilakukan untuk melepaskan emosi terpendam, penderita self harm perlu mengatasinya dengan mengalihkan perhatian mereka ke hal-hal positif.",
-        "Memang, cara berhenti self harm satu ini terkesan sedikit sulit terlebih jika penderitanya sudah terbiasa menyakiti diri sendiri. Untuk itu, Anda sebaiknya berdiskusi dengan profesional, seperti psikiater atau psikolog."
-      ]   
-    },
-    {
-      "tag": "self_harm_reason",
-      "patterns": [
-        "Mengapa saya suka melukai diri saya sendiri?"
-      ],
-      "responses": [
-        "Secara umum, ada beberapa faktor yang bisa menjadi penyebab self harm. Bahkan, beberapa faktor yang memicu perilaku ini adalah hal-hal yang dekat dengan kehidupan sehari-hari, seperti riwayat trauma, masalah sosial (korban perundungan), dan gangguan mental."
-      ]   
-    },
-    {
-      "tag": "self_harm_type",
-      "patterns": [
-        "Apa saja yang termasuk self harm?",
-        "Contoh self harm?"
-      ],
-      "responses": [
-        "Tindakan self harm dikategorikan menjadi 3 macam berdasarkan tingkat keparahannya, yaitu major self mutilation, stereotypic self injury, dan superficial self mutilation"
-      ]   
-    },
-    {
-      "tag": "",
-      "patterns": [
-        
-      ],
-      "responses": [
-        
-      ]   
     }
   ]
 }
