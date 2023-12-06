@@ -1,0 +1,10 @@
+Progress => "tag" : death - "tag" : user-advice belum ditranslate
+
+about = mau dimasukkan? -> mauu
+fact_24 = Perlu dicek lagi "pattern" & "response" nya -> kindly check it, bahasanya udah diperhalus
+fact_26 = "pattern" keduanya sama saja -> udah aku ganti sedikit, tapi intinya sama
+
+Q:
+1. Nama bot kita siapa? aku baru ganti jadi Hugu (tadinya pandora) -> jadi
+2. Ini pertanyaannya tektokan atau sekali jawab? (response yang tanya balik) -> krng tw jg
+3. Better informal pake aku atau formal pake saya? -> pake saya aja
