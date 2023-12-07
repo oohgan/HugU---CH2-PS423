@@ -6,8 +6,7 @@
         "Hai",
         "Halo",
         "Hai apa kabar?",
-        "Hai, yang di sana",
-        "Halo"
+        "Hai, yang di sana"
       ],
       "responses": [
         "Halo! Selamat bertemu denganmu. Bagaimana kabarmu hari ini?",
@@ -62,7 +61,7 @@
       "tag": "goodbye",
       "patterns": [
         "Selamat tinggal",
-        "Sampai jumpa lagi",
+        "Sampai jumpa",
         "Sayonara",
         "ok bye",
         "Selamat tinggal kalau begitu"
@@ -114,7 +113,8 @@
     {
       "tag": "skill",
       "patterns": [
-        "Apa yang bisa anda lakukan?"
+        "Apa yang bisa anda lakukan?",
+        "Apa yang dapat kamu lakukan?"
       ],
       "responses": [
         "Saya dapat memberikan nasihat umum mengenai kecemasan dan depresi, menjawab pertanyaan terkait kesehatan mental, dan melakukan percakapan sehari-hari. Perlu diingat bahwa saya bukan sebagai pengganti ahli kesehatan mental."

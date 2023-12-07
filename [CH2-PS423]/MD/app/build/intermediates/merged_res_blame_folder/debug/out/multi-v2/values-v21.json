@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.hugu.app-mergeDebugResources-46:/values-v21/values-v21.xml",
+            "outputFile": "com.dicoding.huguapp-mergeDebugResources-42:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\6fbb08855fecbb68ca7d19ed7a6f4738\\transformed\\core-1.9.0\\res\\values-v21\\values-v21.xml",

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HugU</string>
+    <string name="slogan">Take Care of Your Mental Health</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nama">Nama</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+
+</resources>

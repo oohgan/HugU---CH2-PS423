@@ -2,21 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="blue">#252CDB</color>
-    <color name="blue_10">#E5F6FF</color>
     <color name="blue_100">#002133</color>
-    <color name="blue_50">#6BCAFF</color>
-    <color name="blue_80">#259ADB</color>
-    <color name="blue_90">#065682</color>
-    <color name="darkblue_100">#035B8C</color>
-    <color name="darkblue_75">#23678C</color>
+    <color name="blue_1o">#E5F6FF</color>
+    <color name="blue_40">#6BCAFF</color>
+    <color name="blue_60">#259ADB</color>
+    <color name="blue_80">#065682</color>
     <color name="green">#29DB25</color>
     <color name="red">#DB2525</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">Hug U</string>
+    <string name="app_name">HugU</string>
     <string name="daftar">Daftar</string>
     <string name="email">Email</string>
     <string name="masuk">Masuk</string>
     <string name="nama">Nama</string>
     <string name="password">Password</string>
-    <style name="Theme.HugU" parent="android:Theme.Material.Light.NoActionBar"/>
+    <string name="slogan">Take Care of Your Mental Health</string>
+    <style name="Theme.HugUApp" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

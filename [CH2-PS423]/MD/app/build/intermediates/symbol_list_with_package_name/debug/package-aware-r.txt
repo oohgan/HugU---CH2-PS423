@@ -1,6 +1,5 @@
-com.dicoding.hugu
+com.dicoding.huguapp
 attr alpha
-attr coordinatorLayoutStyle
 attr font
 attr fontProviderAuthority
 attr fontProviderCerts
@@ -12,30 +11,20 @@ attr fontProviderSystemFontFamily
 attr fontStyle
 attr fontVariationSettings
 attr fontWeight
-attr keylines
 attr lStar
-attr layout_anchor
-attr layout_anchorGravity
-attr layout_behavior
-attr layout_dodgeInsetEdges
-attr layout_insetEdge
-attr layout_keyline
 attr nestedScrollViewStyle
 attr queryPatterns
 attr shortcutMatchRequired
-attr statusBarBackground
 attr ttcIndex
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
 color black
 color blue
-color blue_10
 color blue_100
-color blue_50
+color blue_1o
+color blue_40
+color blue_60
 color blue_80
-color blue_90
-color darkblue_100
-color darkblue_75
 color green
 color notification_action_color_filter
 color notification_icon_bg_color
@@ -65,23 +54,17 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-drawable ic_chat_background
-drawable ic_email_background
-drawable ic_home_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_password_background
-drawable ic_sendarrow_background
-drawable ic_user_background
 drawable icon_arrow
-drawable icon_chat
 drawable icon_home
 drawable icon_lock
 drawable icon_mail
+drawable icon_massage
 drawable icon_user
-drawable logo_app
+drawable logo_hugu
 drawable mascot_hugu
-drawable note_hugu
+drawable note
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -133,24 +116,13 @@ id action_divider
 id action_image
 id action_text
 id actions
-id all
 id androidx_compose_ui_view_composition_context
 id async
 id blocking
-id bottom
-id center
-id center_horizontal
-id center_vertical
 id chronometer
-id clip_horizontal
-id clip_vertical
 id compose_view_saveable_id_tag
 id consume_window_insets_tag
 id dialog_button
-id end
-id fill
-id fill_horizontal
-id fill_vertical
 id forever
 id hide_in_inspector_tag
 id icon
@@ -159,20 +131,16 @@ id info
 id inspection_slot_table_set
 id is_pooling_container_tag
 id italic
-id left
 id line1
 id line3
-id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
 id pooling_container_listener_holder_tag
 id report_drawn
-id right
 id right_icon
 id right_side
-id start
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -190,13 +158,11 @@ id text
 id text2
 id time
 id title
-id top
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id wrapped_composition_tag
-integer google_play_services_version
 integer status_bar_notification_info_maxnum
 layout custom_dialog
 layout notification_action
@@ -205,27 +171,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-mipmap ic_chat
-mipmap ic_chat_foreground
-mipmap ic_chat_round
-mipmap ic_email
-mipmap ic_email_foreground
-mipmap ic_email_round
-mipmap ic_home
-mipmap ic_home_foreground
-mipmap ic_home_round
 mipmap ic_launcher
 mipmap ic_launcher_round
-mipmap ic_password
-mipmap ic_password_foreground
-mipmap ic_password_round
-mipmap ic_sendarrow
-mipmap ic_sendarrow_foreground
-mipmap ic_sendarrow_round
-mipmap ic_user
-mipmap ic_user_foreground
-mipmap ic_user_round
-raw firebase_common_keep
 string androidx_startup
 string app_name
 string bottom_sheet_collapse_description
@@ -235,7 +182,6 @@ string bottom_sheet_expand_description
 string close_drawer
 string close_sheet
 string collapsed
-string common_google_play_services_unknown_issue
 string daftar
 string date_input_headline
 string date_input_headline_description
@@ -288,6 +234,7 @@ string range_end
 string range_start
 string search_bar_search
 string selected
+string slogan
 string snackbar_dismiss
 string status_bar_notification_info_overflow
 string suggestions_available
@@ -316,14 +263,11 @@ style TextAppearance_Compat_Notification_Info
 style TextAppearance_Compat_Notification_Line2
 style TextAppearance_Compat_Notification_Time
 style TextAppearance_Compat_Notification_Title
-style Theme_HugU
+style Theme_HugUApp
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
-style Widget_Support_CoordinatorLayout
 styleable Capability queryPatterns shortcutMatchRequired
 styleable ColorStateListItem android_color android_alpha android_lStar alpha lStar
-styleable CoordinatorLayout keylines statusBarBackground
-styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery fontProviderSystemFontFamily
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
