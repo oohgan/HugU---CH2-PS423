@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.hugu.app-mergeDebugResources-46:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.dicoding.huguapp-mergeDebugResources-42:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\f95e562243eec118b36c4e52f00a670d\\transformed\\ui-1.4.1\\res\\values-en-rXC\\values-en-rXC.xml",
