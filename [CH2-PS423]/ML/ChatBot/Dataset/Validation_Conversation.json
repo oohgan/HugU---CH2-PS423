@@ -71,26 +71,30 @@
     {
       "tag": "help",
       "patterns": [
-        "Tolong bantu aku"
+        "Tolong bantu aku",
+        "Aku butuh bantuan"
       ]
     },
     {
       "tag": "sad",
       "patterns": [
         "Aku merasa kesepian",
-        "Aku sedih"
+        "Aku sedih",
+        "Aku tidak punya siapa-siapa"
       ]
     },
     {
       "tag": "stressed",
       "patterns": [
+        "Aku merasa mandek",
         "Saya masih merasa stres"
       ]
     },
     {
       "tag": "worthless",
       "patterns": [
-        "Aku merasa sangat tidak berharga."
+        "Aku sangat tidak berharga.",
+        "Aku tidak bisa berbuat apa-apa."
       ]
     },
     {
@@ -172,13 +176,15 @@
     {
       "tag": "hate-you",
       "patterns": [
-        "Aku membencimu"
+        "Aku membencimu",
+        "Aku tidak percaya kamu"
       ]
     },
     {
       "tag": "hate-me",
       "patterns": [
-        "Kamu membenciku"
+        "Kamu membenciku",
+        "Aku tahu kamu membenciku"
       ]
     },
     {
@@ -192,7 +198,8 @@
     {
       "tag": "jokes",
       "patterns": [
-        "Berikan aku sebuah lelucon"
+        "Berikan aku sebuah lelucon",
+        "Berikan aku lelucon"
       ]
     },
     {
@@ -225,13 +232,15 @@
     {
       "tag": "something-else",
       "patterns": [
-        "Aku ingin berbicara tentang hal lain"
+        "Aku ingin berbicara tentang hal lain",
+        "ayo bicara tentang hal lain"
       ]
     },
     {
       "tag": "ask",
       "patterns": [
-       "Apakah saya boleh bertanya sesuatu?"
+       "Apakah saya boleh bertanya sesuatu?",
+       "Aku ingin bertanya sesuatu"
       ]
     },
     {
@@ -275,7 +284,8 @@
     {
       "tag": "hugu_useful",
       "patterns": [
-        "Sekali lagi terima kasih banyak. Saya akan terus berlatih meditasi dan fokus pada apa yang bisa saya kendalikan."
+        "Sekali lagi terima kasih banyak. Saya akan terus berlatih meditasi dan fokus pada apa yang bisa saya kendalikan.",
+        "Sekali lagi terima kasih banyak"
       ]
     },
     {
@@ -287,7 +297,8 @@
     {
       "tag": "learn_mental_health",
       "patterns": [
-        "Saya tertarik belajar tentang kesehatan mental."
+        "Saya ingin belajar tentang kesehatan mental.",
+        "Aku tertarik belajar kesehatan mental"
       ]
     },
     {
@@ -299,7 +310,7 @@
     {
       "tag": "fact_1",
       "patterns": [
-        "Apa itu kesehatan mental?",
+        "Apa yang dimaksud dengan kesehatan mental?",
         "Kesehatan mental adalah"
       ]
     },
@@ -313,8 +324,7 @@
     {
       "tag": "fact_3",
       "patterns": [
-        "Apa itu depresi?", 
-        "Tentukan depresi"
+        "Definisi depresi adalah"
       ]
     },
     {
@@ -352,7 +362,7 @@
     {
       "tag": "fact_9",
       "patterns": [
-        "Apa saja gejala penyakit kesehatan mental"
+        "gejala penyakit kesehatan mental"
       ]
     },
     {

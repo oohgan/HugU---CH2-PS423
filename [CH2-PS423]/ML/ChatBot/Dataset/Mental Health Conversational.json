@@ -160,8 +160,7 @@
       "patterns": [
         "Saya sangat stres",
         "Aku merasa mandek",
-        "Saya masih merasa stres",
-        "Aku sangat kelelahan"
+        "Saya masih merasa stres"
       ],
       "responses": [
         "Menurutmu apa yang menyebabkan hal ini?",
@@ -360,7 +359,8 @@
       "patterns": [
         "Aku membencimu",
         "Aku tidak menyukaimu",
-        "Aku tidak percaya padamu"
+        "Aku tidak percaya padamu",
+        "Aku tidak percaya kamu"
       ],
       "responses": [
         "Saya minta maaf jika saya menyakiti perasaan Anda dengan cara apa pun. Saya hanya di sini untuk membantu.",
@@ -446,7 +446,7 @@
       "patterns": [
         "Dimana kamu?",
         "Dimana kamu tinggal?",
-        "Apa lokasimu?"
+        "Dimana lokasimu?"
       ],
       "responses": [
         "Haha, aku tinggal di dalam komputermu.",
@@ -472,7 +472,8 @@
       "tag": "ask",
       "patterns": [
         "Bolehkah saya bertanya sesuatu?",
-        "Apakah saya boleh bertanya sesuatu"
+        "Apakah saya boleh bertanya sesuatu",
+        "Aku ingin bertanya sesuatu"
       ],
       "responses": [
         "Tentu. Aku akan berusaha semaksimal mungkin untuk menjawabmu",
@@ -535,7 +536,8 @@
       "tag": "user_meditation",
       "patterns": [
         "Aku melakukan apa yang kamu katakan dan aku merasa jauh lebih baik. terima kasih banyak.",
-        "Saya merasa lebih baik sekarang"
+        "Saya merasa lebih baik sekarang",
+        "aku merasa lebih baik sekarang"
       ],
       "responses": [
         "Sama-sama. Ingat: Selalu fokus pada apa yang ada dalam kendali Anda. Ketika Anda merasa khawatir, luangkan waktu sejenak untuk memeriksa hal-hal yang Anda kendalikan. Anda tidak dapat mencegah datangnya badai tetapi Anda dapat bersiap menghadapinya. Anda bisa Kita tidak bisa mengendalikan bagaimana orang lain berperilaku, tapi kita bisa mengendalikan bagaimana kita bereaksi. Sadarilah bahwa kadang-kadang, yang bisa kita kendalikan hanyalah usaha dan sikap kita. Ketika kita mencurahkan energi kita pada hal-hal yang bisa kita kendalikan, kita akan jauh lebih efektif. ."
@@ -544,7 +546,9 @@
     {
       "tag": "hugu_useful",
       "patterns": [
-        "Sekali lagi terima kasih banyak. Saya akan terus berlatih meditasi dan fokus pada apa yang bisa saya kendalikan."
+        "Sekali lagi terima kasih banyak. Saya akan terus berlatih meditasi dan fokus pada apa yang bisa saya kendalikan.",
+        "Sekali lagi terima kasih banyak",
+        "Terima kasih kembali. Saya komitmen untuk terus berlatih meditasi"
       ],
       "responses": [
         "Saya senang Anda menganggap ini berguna. Adakah hal lain yang bisa saya bantu?"
@@ -566,8 +570,9 @@
       "tag": "learn_mental_health",
       "patterns": [
         "Saya ingin belajar tentang kesehatan mental.",
-        "Saya ingin belajar lebih banyak tentang kesehatan mental.",
-        "Saya tertarik belajar tentang kesehatan mental."
+        "Aku ingin belajar lebih banyak tentang kesehatan mental.",
+        "Saya tertarik belajar tentang kesehatan mental.",
+        "Aku tertarik belajar kesehatan mental"
       ],
       "responses": [
         "Oh itu sangat bagus. Saya bersedia menjawab apa pun yang saya tahu tentang kesehatan mental."
@@ -590,10 +595,9 @@
       "patterns": [
         "Apa itu kesehatan mental?",
         "Apa yang dimaksud dengan kesehatan mental?",
-        "Kesehatan mental adalah"
+        "Jelaskan  kesehatan mental"
       ],
       "responses": [
-        "Menurut World Health Organization (WHO), kesehatan adalah keadaan sejahtera badan, jiwa dan sosial yang memungkinkan setiap orang hidup produktif secara sosial dan ekonomi.",
         "Kesehatan mental yang baik adalah kondisi ketika batin kita berada dalam keadaan tentram dan tenang, sehingga memungkinkan kita untuk menikmati kehidupan sehari-hari dan menghargai orang lain di sekitar.",
         "Kesehatan mental adalah suatu keadaan sejahtera dimana individu menyadari kemampuannya sendiri, dapat mengatasi tekanan hidup yang normal, dapat bekerja secara produktif dan bermanfaat, serta mampu memberikan kontribusi kepada komunitasnya.",
         "Kesehatan mental adalah kesehatan yang berkaitan dengan kondisi emosi, kejiwaan, dan psikis seseorang"
@@ -614,8 +618,11 @@
     {
       "tag": "fact_3",
       "patterns": [
-        "Apa itu depresi? ", 
-        "Tentukan depresi"
+        "Apa itu depresi?", 
+        "Depresi adalah",
+        "Definisi depresi",
+        "Jelaskan depresi secara singkat.",
+        "Apa yang termasuk dalam definisi depresi?"
       ],
       "responses": [
         "Gangguan kesehatan mental yang ditandai dengan suasana hati yang tertekan atau kehilangan minat dalam kegiatan, menyebabkan gangguan yang signifikan dalam kehidupan sehari -hari.",
@@ -636,7 +643,6 @@
     {
       "tag": "fact_5",
       "patterns": [
-        "Apa itu psikolog?",
         "Siapa itu psikolog?",
         "Apa yang dilakukan psikolog?"
       ],
@@ -670,7 +676,8 @@
       "tag": "fact_8",
       "patterns": [
         "Apa yang menyebabkan penyakit mental?",
-        "Apa faktor-faktor yang dapat memengaruhi penyakit kesehatan mental?"
+        "Apa faktor-faktor yang dapat memengaruhi penyakit kesehatan mental?",
+        "Penyebab penyakit mental"
       ],
       "responses": [
         "Penyebab penyakit mental kompleks dan seringkali melibatkan interaksi berbagai faktor seperti, faktor genetik, biotik, lingkungan, psikologis, dan kombinasi beberapa faktor lain.",
@@ -680,8 +687,11 @@
     {
       "tag": "fact_9",
       "patterns": [
-        "Apa saja tanda-tanda peringatan penyakit kesehatan mental?",
-        "Apa saja gejala penyakit kesehatan mental"
+        "Apa saja tanda-tanda penyakit kesehatan mental?",
+        "Apa saja gejala penyakit kesehatan mental",
+        "Apa indikator atau gejala umum dari penyakit kesehatan mental?",
+        "Bagaimana kita dapat mengenali gejala penyakit kesehatan mental?"
+
       ],
       "responses": [
         "Gejala gangguan kesehatan mental berbeda-beda tergantung jenis dan tingkat keparahan kondisinya. Berikut ini adalah daftar gejala umum yang mungkin menandakan adanya gangguan kesehatan mental, terutama bila beberapa gejala muncul sekaligus. \n Pada orang dewasa:\n Pikiran bingung\n Kesedihan atau mudah tersinggung yang berlangsung lama\n Suasana hati yang naik turun secara ekstrem\n Ketakutan, kekhawatiran, atau kecemasan yang berlebihan\n Menarik diri dari pergaulan\n Perubahan dramatis dalam kebiasaan makan atau tidur\n Kuat perasaan marah\n Delusi atau halusinasi (melihat atau mendengar hal-hal yang sebenarnya tidak ada)\n Meningkatnya ketidakmampuan untuk mengatasi masalah dan aktivitas sehari-hari\n Pikiran untuk bunuh diri\n Menyangkal masalah yang jelas\n Banyak masalah fisik yang tidak dapat dijelaskan\n Pelecehan penggunaan obat-obatan dan/atau alkohol\n \nPada anak-anak yang lebih besar dan pra-remaja:\n Penyalahgunaan obat-obatan dan/atau alkohol\n Ketidakmampuan mengatasi masalah dan aktivitas sehari-hari\n Perubahan kebiasaan tidur dan/atau makan\n Keluhan yang berlebihan masalah fisik\n Menentang otoritas, membolos sekolah, mencuri, atau merusak properti\n Ketakutan yang intens akan kenaikan berat badan\n Suasana hati negatif yang bertahan lama, sering kali disertai dengan nafsu makan yang buruk dan pikiran tentang kematian\n Sering meledaknya amarah\n \nDalam anak-anak yang lebih kecil:\n Perubahan prestasi sekolah\n Nilai buruk meskipun sudah berusaha keras\n Kekhawatiran atau kecemasan yang berlebihan\n Hiperaktif\n Mimpi buruk yang terus-menerus\n Ketidaktaatan dan/atau perilaku agresif yang terus-menerus\n Sering mengamuk.",
@@ -723,7 +733,9 @@
     {
       "tag": "fact_13",
       "patterns": [
-        "Pilihan pengobatan apa yang tersedia?"
+        "Pilihan pengobatan apa yang tersedia?",
+        "Apa opsi pengobatan yang dapat dipertimbangkan?",
+        "Tolong berikan informasi mengenai pengobatan yang tersedia."
       ],
       "responses": [
         "Sama seperti jenis obat yang berbeda untuk penyakit fisik, pilihan pengobatan yang berbeda juga tersedia untuk individu dengan penyakit mental. Perawatan bekerja secara berbeda untuk orang yang berbeda. Penting untuk menemukan apa yang terbaik untuk Anda atau anak Anda."
