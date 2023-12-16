@@ -92,7 +92,9 @@
       "tag": "about",
       "patterns": [
         "Siapa kamu?",
-        "Siapa namamu?"
+        "Siapa namamu?",
+        "Ceritakan tentang dirimu",
+        "Aku harus memanggilmu apa"
       ],
       "responses": [
         "Saya Pandora, Personal Therapeutic AI Assistant Anda. Bagaimana perasaan Anda hari ini",
@@ -253,7 +255,7 @@
         "Aku tidak ingin membicarakannya.",
         "Tidak, menjauh saja.",
         "Aku tidak sanggup membuka diri.",
-        "Diam saja"
+        "Kamu Diam saja"
       ],
       "responses": [
         "Membicarakan sesuatu sangat membantu. Jika kamu belum siap untuk terbuka maka tidak apa-apa. Ketahuilah bahwa aku ada di sini untukmu, kapan pun kamu membutuhkanku.",
@@ -677,7 +679,7 @@
       "patterns": [
         "Apa yang menyebabkan penyakit mental?",
         "Apa faktor-faktor yang dapat memengaruhi penyakit kesehatan mental?",
-        "Penyebab penyakit mental"
+        "Penyebab penyakit kesehatan mental adalah"
       ],
       "responses": [
         "Penyebab penyakit mental kompleks dan seringkali melibatkan interaksi berbagai faktor seperti, faktor genetik, biotik, lingkungan, psikologis, dan kombinasi beberapa faktor lain.",

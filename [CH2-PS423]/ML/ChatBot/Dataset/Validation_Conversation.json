@@ -51,7 +51,7 @@
       "tag": "about",
       "patterns": [
         "Kamu siapa",
-        "Siapa namamu?"
+        "Aku harus memanggilmu apa?"
       ]
     },
     {
@@ -362,7 +362,7 @@
     {
       "tag": "fact_9",
       "patterns": [
-        "gejala penyakit kesehatan mental"
+        "Apa gejala umum penyakit kesehatan mental"
       ]
     },
     {
