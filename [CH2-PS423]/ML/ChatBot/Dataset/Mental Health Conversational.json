@@ -94,7 +94,7 @@
         "Siapa kamu?",
         "Siapa namamu?",
         "Ceritakan tentang dirimu",
-        "Aku harus memanggilmu apa"
+        "Aku harus pangil kamu apa"
       ],
       "responses": [
         "Saya Pandora, Personal Therapeutic AI Assistant Anda. Bagaimana perasaan Anda hari ini",
@@ -296,12 +296,12 @@
     {
       "tag": "death",
       "patterns": [
-        "Ibuku meninggal",
-        "Adikku meninggal",
-        "Ayahku meninggal",
-        "Adikku meninggal",
+        "Ibu meninggal",
+        "Adik meninggal",
+        "Ayah meninggal",
+        "Saudara meninggal",
         "Seseorang di keluargaku meninggal",
-        "Temanku meninggal"
+        "Teman meninggal"
       ],
       "responses": [
         "Aku turut prihatin mendengarnya. Jika kamu ingin membicarakannya. Aku di sini.",
@@ -435,9 +435,7 @@
       "tag": "stupid",
       "patterns": [
         "Apakah kamu bodoh?",
-        "Kamu gila.",
-        "Kamu bodoh.",
-        "Apakah kamu dungu?"
+        "Kamu bodoh."
       ],
       "responses": [
         "Aku harap kamu tidak mengatakan hal-hal yang menyakitkan seperti itu. Maaf jika aku tidak berguna"
