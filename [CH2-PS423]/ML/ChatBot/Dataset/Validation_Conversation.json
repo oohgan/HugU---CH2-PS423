@@ -1,0 +1,498 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo",
+        "Hai apa kabar?",
+        "Hi"
+      ]
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "pagi"
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [
+        "siang"        
+      ]
+    },
+    {
+      "tag": "evening",
+      "patterns": [
+        "sore"
+      ]
+    },
+    {
+      "tag": "night",
+      "patterns": [
+        "Selamat malam"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Selamat tinggal",
+        "Sampai ketemu lagi",
+        "Sampai nanti"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Terima kasih",
+        "Makasih"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Kamu siapa",
+        "Aku harus memanggilmu apa?"
+      ]
+    },
+    {
+      "tag": "skill",
+      "patterns": [
+        "Kamu bisa ngapain aja?",
+        "Apa yang dapat kamu lakukan?"
+      ]
+    },
+    {
+      "tag": "creation",
+      "patterns": [
+        "Siapa yang membuatmu?",
+        "Siapa yang menciptakanmu?"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Tolong bantu aku",
+        "Aku butuh bantuan"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "Aku merasa kesepian",
+        "Aku sedih",
+        "Aku tidak punya siapa-siapa"
+      ]
+    },
+    {
+      "tag": "stressed",
+      "patterns": [
+        "Aku merasa mandek",
+        "Saya masih merasa stres"
+      ]
+    },
+    {
+      "tag": "worthless",
+      "patterns": [
+        "Aku sangat tidak berharga.",
+        "Aku tidak bisa berbuat apa-apa."
+      ]
+    },
+    {
+      "tag": "depressed",
+      "patterns": [
+        "Aku tidak tahan lagi",
+        "Saya sangat tertekan"
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "Aku merasa senang hari ini",
+        "Saya senang"
+      ]
+    },
+    {
+      "tag": "casual",
+      "patterns": [
+        "Oke",
+        "Bagus"
+      ]
+    },
+    {
+      "tag": "anxious",
+      "patterns": [
+        "Aku merasa sangat cemas"
+      ]
+    },
+    {
+      "tag": "not-talking",
+      "patterns": [
+        "Aku tidak ingin membicarakannya."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "Aku menderita insomnia",
+        "Aku tidak bisa tidur.",
+        "Aku belum tidur selama beberapa hari terakhir."
+      ]
+    },
+    {
+      "tag": "scared",
+      "patterns": [
+        "Aku takut",
+        "Saya ketakutan"
+      ]
+    },
+    {
+      "tag": "death",
+      "patterns": [
+        "Adikku meninggal",
+        "Seseorang di keluargaku meninggal"
+      ]
+    },
+    {
+      "tag": "understand",
+      "patterns": [
+        "Kamu hanya robot. Bagaimana kamu tahu?",
+        "Kamu tidak berguna"
+      ]
+    },
+    {
+      "tag": "done",
+      "patterns": [
+        "Itu saja.",
+        "Tidak ada lagi"
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": [
+        "Aku ingin mati",
+        "Aku ingin bunuh diri"
+      ]
+    },
+    {
+      "tag": "hate-you",
+      "patterns": [
+        "Aku membencimu",
+        "Aku tidak percaya kamu"
+      ]
+    },
+    {
+      "tag": "hate-me",
+      "patterns": [
+        "Kamu membenciku",
+        "Aku tahu kamu membenciku"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "ujian",
+        "uang",
+        "masalah keuangan"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Berikan aku sebuah lelucon",
+        "Berikan aku lelucon"
+      ]
+    },
+    {
+      "tag": "repeat",
+      "patterns": [
+        "Kamu sudah menyebutkan itu sebelumnya"
+      ]
+    },
+    {
+      "tag": "wrong",
+      "patterns": [
+        "Responnya salah", 
+        "Jawabannya salah"
+      ]
+    },
+    {
+      "tag": "stupid",
+      "patterns": [
+        "kamu bodoh",
+        "Kamu gila."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Kamu dimana?",
+        "Dimana kamu tinggal?"
+      ]
+    },
+    {
+      "tag": "something-else",
+      "patterns": [
+        "Aku ingin berbicara tentang hal lain",
+        "ayo bicara tentang hal lain"
+      ]
+    },
+    {
+      "tag": "ask",
+      "patterns": [
+       "Apakah saya boleh bertanya sesuatu?",
+       "Aku ingin bertanya sesuatu"
+      ]
+    },
+    {
+      "tag": "problem",
+      "patterns": [
+        "Mungkin karena ujian"
+      ]
+    },
+    {
+      "tag": "no-approach",
+      "patterns": [
+        "tidak terlalu",
+        "saya rasa tidak"
+      ]
+    },
+    {
+      "tag": "learn-more",
+      "patterns": [
+        "aku ingin mempelajarinya lebih lanjut.",
+        "Ya, saya ingin mempelajarinya"
+      ]
+    },
+    {
+      "tag": "user-agree",
+      "patterns": [
+        "iya, kamu benar. aku pantas istirahat."
+      ]
+    },
+    {
+      "tag": "meditation",
+      "patterns": [
+        "Kedengarannya berguna."
+      ]
+    },
+    {
+      "tag": "user_meditation",
+      "patterns": [
+        "Aku merasa lebih baik sekarang"
+      ]
+    },
+    {
+      "tag": "hugu_useful",
+      "patterns": [
+        "Sekali lagi terima kasih banyak. Saya akan terus berlatih meditasi dan fokus pada apa yang bisa saya kendalikan.",
+        "Sekali lagi terima kasih banyak"
+      ]
+    },
+    {
+      "tag": "user-advice",
+      "patterns": [
+        "Aku butuh saran."
+      ]
+    },
+    {
+      "tag": "learn_mental_health",
+      "patterns": [
+        "Saya ingin belajar tentang kesehatan mental.",
+        "Aku tertarik belajar kesehatan mental"
+      ]
+    },
+    {
+      "tag": "mental_health_fact",
+      "patterns": [
+        "Berikan saya fakta lain tentang kesehatan mental"
+      ]
+    },
+    {
+      "tag": "fact_1",
+      "patterns": [
+        "Apa yang dimaksud dengan kesehatan mental?",
+        "Kesehatan mental adalah"
+      ]
+    },
+    {
+      "tag": "fact_2",
+      "patterns": [
+        "Mengapa kesehatan mental itu penting?",
+        "pentingnya kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_3",
+      "patterns": [
+        "Definisi depresi adalah"
+      ]
+    },
+    {
+      "tag": "fact_4",
+      "patterns": [
+        "Apakah saya depresi?",
+        "Apakah saya menderita depresi?"
+        ]
+    },
+    {
+      "tag": "fact_5",
+      "patterns": [
+        "Siapa itu psikolog?",
+        "Apa yang dilakukan psikolog?"
+      ]
+    },
+    {
+      "tag": "fact_6",
+      "patterns": [
+        "Apa yang dimaksud dengan penyakit kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_7",
+      "patterns": [
+        "Siapa saja yang terpengaruh oleh penyakit mental?"
+      ]
+    },
+    {
+      "tag": "fact_8",
+      "patterns": [
+        "Apa faktor-faktor yang dapat memengaruhi penyakit kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_9",
+      "patterns": [
+        "Apa gejala umum penyakit kesehatan mental"
+      ]
+    },
+    {
+      "tag": "fact_10",
+      "patterns": [
+        "Apakah orang yang sakit penyakit mental bisa sembuh?"
+      ]
+    },
+    {
+      "tag": "fact_11",
+      "patterns": [
+        "Apa yang harus saya lakukan jika saya mengenal seseorang yang tampaknya memiliki gejala gangguan jiwa?"
+      ]
+    },
+    {
+      "tag": "fact_12",
+      "patterns": [
+        "Bagaimana saya bisa menemukan ahli kesehatan mental untuk diri saya sendiri?"
+      ]
+    },
+    {
+      "tag": "fact_13",
+      "patterns": [
+        "Pilihan pengobatan apa yang tersedia?"
+      ]
+    },
+    {
+      "tag": "fact_14",
+      "patterns": [
+        "Jika saya terlibat dalam pengobatan, apa yang perlu saya ketahui?"
+      ]
+    },
+    {
+      "tag": "fact_15",
+      "patterns": [
+        "Perbedaan ahli kesehatan mental"
+      ]
+    },
+    {
+      "tag": "fact_16",
+      "patterns": [
+        "Bagaimana saya dapat menemukan ahli kesehatan mental yang cocok bagi saya?"
+      ]
+    },
+    {
+      "tag": "fact_17",
+      "patterns": [
+        "Di mana lagi saya bisa mendapatkan bantuan?"
+      ],
+      "responses": [
+        "Ke mana Anda mencari bantuan akan bergantung pada sifat masalah dan/atau gejalanya dan apa yang paling cocok untuk Anda. Seringkali, tempat terbaik untuk memulai adalah dengan berbicara dengan seseorang yang Anda percayai mengenai kekhawatiran Anda, seperti anggota keluarga, teman, pendeta, penyedia layanan kesehatan, atau profesional lainnya. Mendapatkan dukungan sosial ini sangat penting dalam penyembuhan penyakit mental, dan Anda akan dapat meminta rujukan atau rekomendasi praktisi kesehatan mental tepercaya dari mereka. Cari sumber daya kesehatan mental di daerah Anda. Kedua, ada orang-orang dan tempat-tempat di seluruh negeri yang menyediakan layanan untuk berbicara, mendengarkan, dan membantu Anda dalam perjalanan menuju pemulihan. Ketiga, banyak orang menganggap dukungan sebaya sebagai alat yang berguna untuk membantu pemulihan mereka. Ada berbagai organisasi yang menawarkan kelompok dukungan untuk konsumen, anggota keluarga, dan teman. Beberapa kelompok pendukung dipimpin oleh rekan sejawat, sementara yang lain mungkin dipimpin oleh ahli kesehatan mental."
+      ]
+    },
+    {
+      "tag": "fact_18",
+      "patterns": [
+        "Apa yang harus saya ketahui sebelum memulai pengobatan baru?"
+      ]
+    },
+    {
+      "tag": "fact_19",
+      "patterns": [
+        "Ke mana saya bisa mencari terapi?"
+      ]
+    },
+    {
+      "tag": "fact_20",
+      "patterns": [
+        "Dimana saya bisa belajar tentang jenis pengobatan kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_21",
+      "patterns": [
+        "Apa saja jenis-jenis profesional kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_22",
+      "patterns": [
+        "Bagaimana saya bisa punya support system?"
+      ]
+    },
+    {
+      "tag": "fact_23",
+      "patterns": [
+        "Bisakah Anda mencegah masalah kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_24",
+      "patterns": [
+        "Bagaimana caranya untuk mengatasi masalah kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_25",
+      "patterns": [
+        "Apa yang menyebabkan masalah kesehatan mental?"
+      ]
+    },
+    {
+      "tag": "fact_26",
+      "patterns": [
+        "Apa yang harus saya lakukan jika saya khawatir dengan kesehatan mental saya?"
+      ]
+    },
+    {
+      "tag": "fact_27",
+      "patterns": [
+        "Bagaimana saya tahu kalau saya tidak sehat?"
+      ]
+    },
+    {
+      "tag": "fact_28",
+      "patterns": [
+        "Bagaimana saya bisa menjaga hubungan sosial? Bagaimana jika saya merasa kesepian?"
+      ]
+    },
+    {
+      "tag": "fact_29",
+      "patterns": [
+        "perbedaan kecemasan dan stress"
+      ]
+    },
+    {
+      "tag": "fact_30",
+      "patterns": [
+        "perbedaan antara kesedihan dan depresi"
+      ]
+    }
+  ]
+}

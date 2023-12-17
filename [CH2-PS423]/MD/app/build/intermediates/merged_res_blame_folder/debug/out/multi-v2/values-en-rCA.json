@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dicoding.hugu.app-mergeDebugResources-46:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.dicoding.huguapp-mergeDebugResources-42:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-3\\1e47bd6ef544ae2e80d958d5d16167bc\\transformed\\material3-1.1.2\\res\\values-en-rCA\\values-en-rCA.xml",

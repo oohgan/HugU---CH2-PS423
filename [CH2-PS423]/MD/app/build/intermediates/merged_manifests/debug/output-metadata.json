@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.dicoding.hugu",
+  "applicationId": "com.dicoding.huguapp",
   "variantName": "debug",
   "elements": [
     {
