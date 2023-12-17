@@ -1,0 +1,63 @@
+code;question;
+Q1;Saya merasa kesal karena hal-hal sepele.;
+Q2;Saya merasa mulut saya kering.;
+Q3;Sepertinya saya tidak merasakan perasaan positif sama sekali.;
+Q4;Saya mengalami kesulitan bernapas (misalnya napas terlalu cepat dan sesak napas tanpa adanya aktivitas fisik).;
+Q5;Sepertinya saya tidak bisa maju atau berubah.;
+Q6;Saya cenderung bereaksi berlebihan terhadap situasi.;
+Q7;Saya merasa gemetar (misalnya kaki terasa lemas).;
+Q8;Saya merasa sulit untuk rileks.;
+Q9;Saya menemukan diri saya dalam situasi yang membuat saya sangat cemas. Saya merasa sangat lega ketika itu berakhir.;
+Q10;Saya merasa tidak ada lagi yang bisa diharapkan.;
+Q11;Saya merasa mudah marah.;
+Q12;Saya merasa Saya menggunakan banyak energi gugup.;
+Q13;Saya merasa sedih dan depresi.;
+Q14;Saya menjadi tidak sabar ketika saya mengalami keterlambatan dalam hal apa pun (misalnya lift dan lampu lalu lintas yang terlalu lama);
+Q15;Saya merasa akan pingsan.;
+Q16;Saya merasa kehilangan minat pada segala hal.;
+Q17;Saya merasa Saya tidak berharga sebagai manusia.;
+Q18;Saya merasa agak sensitif.;
+Q19;Saya berkeringat banyak (misalnya tangan berkeringat) tanpa adanya suhu tinggi atau aktivitas fisik.;
+Q20;Saya merasa takut tanpa alasan yang jelas.;
+Q21;Saya merasa hidup ini tidak berguna.;
+Q22;Saya merasa sulit untuk bersantai.;
+Q23;Saya kesulitan menelan.;
+Q24;Sepertinya saya tidak mendapatkan kesenangan apapun dari apa yang saya lakukan.;
+Q25;Saya menyadari tindakan jantung saya ketika tidak ada aktivitas fisik (misalnya rasa detak jantung meningkat).;
+Q26;Saya merasa sedih dan sedih.;
+Q27;Saya merasa sangat mudah tersinggung.;
+Q28;Saya merasa hampir panik.;
+Q29;Saya merasa sulit untuk tenang setelah ada sesuatu yang membuat saya kesal.;
+Q30;Saya takut kalau saya akan diberikan tanggung jawab beberapa tugas sepele tapi asing.;
+Q31;Saya tidak bisa merasa antusias terhadap apa pun.;
+Q32;Saya merasa sulit menoleransi interupsi terhadap apa yang sedang saya lakukan.;
+Q33;Saya berada dalam keadaan tegang.;
+Q34;Saya merasa saya tidak berharga.;
+Q35;Saya tidak toleran terhadap apa pun yang menghalangi saya untuk melanjutkan pekerjaan saya.;
+Q36;Saya merasa takut.;
+Q37;Saya tidak melihat adanya harapan di masa depan.;
+Q38;Saya merasa hidup ini tidak ada artinya.;
+Q39;Saya merasa gelisah.;
+Q40;Saya khawatir dengan situasi dimana saya mungkin panik dan mempermalukan diri sendiri.;
+Q41;Saya mengalami gemetar (misalnya di tangan).;
+Q42;Saya merasa sulit untuk meningkatkan inisiatif dalam melakukan sesuatu.;
+;;
+;;
+;;
+;;
+;;
+Depresi ;Anxiety ;Stress
+Q3;Q2;Q1
+Q5;Q4;Q6
+Q10;Q7;Q8
+Q13;Q9;Q11
+Q16;Q15;Q12
+Q17;Q19;Q14
+Q21;Q20;Q18
+Q24;Q23;Q22
+Q26;Q25;Q27
+Q31;Q28;Q29
+Q34;Q30;Q32
+Q37;Q36;Q33
+Q38;Q40;Q35
+Q42;Q41;Q39
