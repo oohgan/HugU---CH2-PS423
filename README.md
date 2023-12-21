@@ -2,7 +2,7 @@
 
 # Overview 
 HugU is an Android application that provides mental health consultation and tracking feature.
-This app is built as our Capstone Project from CH2-PS423 at Bangkit Academny 2023 Batch 5.
+This app is built as our Capstone Project from **CH2-PS423** at **Bangkit Academny 2023 Batch 5**.
 
 # Download the Application
 Navigate to this repository or go to build instructions
@@ -20,4 +20,4 @@ Navigate to this repository or go to build instructions
   - [Dea Luthfina Azzahra - M128BSX1496](https://www.linkedin.com/in/dea-luthfina/) 
 
 # Licenses
-This project is licensed under
+This project is licensed under the MIT license - see the [LICENSE](https://github.com/oohgan/HugU---CH2-PS423/blob/main/LICENSE) for more detail
