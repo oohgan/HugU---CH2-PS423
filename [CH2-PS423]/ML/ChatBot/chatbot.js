@@ -1,12 +1,12 @@
 const tf = require('@tensorflow/tfjs-node');
 const fs = require('fs');
-const handler = tf.io.fileSystem('/tfjs_model/model.json');
+const handler = tf.io.fileSystem('tfjs_model/model.json');
 const model = tf.loadLayersModel(handler);
-const tokenizerJson = fs.readFileSync('/tokenizer_chatbot_dict.json', 'utf8');
+const tokenizerJson = fs.readFileSync('tokenizer_chatbot_dict.json', 'utf8');
 const tokenizer = JSON.parse(tokenizerJson);
-const tagsClassJson = fs.readFileSync('/label_decoder.json');
+const tagsClassJson = fs.readFileSync('label_decoder.json');
 const tagsClass = JSON.parse(tagsClassJson);
-const datasetJson = fs.readFileSync('/Dataset/Mental_Health_Conversational.json', 'utf8');
+const datasetJson = fs.readFileSync('Dataset/Mental Health Conversational.json', 'utf8');
 const dataset = JSON.parse(datasetJson);
 
 
@@ -81,14 +81,14 @@ async function predictText(answer) {
     model.then(function (res) {
       // Preprocessing Textt
       const processedText = preprocessingText(answer);
-      const tokenizedText = tokenize(processedText, 10);
+      const tokenizedText = tokenize(processedText, 12);
 
       // predict text
       const predictResult = res.predict(tf.tensor2d(tokenizedText));
       const tagResultSequence = predictResult.argMax(-1).arraySync()[0];
       const tagResult = getKeyByValue(tagsClass, tagResultSequence);
 
-      const repsonses = dataset.filter(d => d.tag === tagResult)[0].responses;
+      const repsonses = dataset.intents.filter(d => d.tag === tagResult)[0].responses;
       const response = repsonses[Math.floor(Math.random() * repsonses.length)];
 
       resolve(response);
