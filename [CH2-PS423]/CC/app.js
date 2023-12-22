@@ -29,7 +29,6 @@ app.use((req, res, next) => {
   res.json({ message: "Page not found" });
 });
 
-
 app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.json({ error: err });
