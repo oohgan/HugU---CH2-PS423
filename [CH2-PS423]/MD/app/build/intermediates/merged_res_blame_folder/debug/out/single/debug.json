@@ -1,106 +1,202 @@
 [
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_icon_massage.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/icon_massage.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_logo_hugu.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/logo_hugu.png"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_icon_arrow.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/icon_arrow.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_teman_media.jpg.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/teman_media.jpg"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_icon_home.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/icon_home.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_kuesioner.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_kuesioner.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_mascot_hugu.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/mascot_hugu.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_main.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_user_hugu.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/user_hugu.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_note.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/note.png"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_logo_hugu.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/logo_hugu.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_register.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_register.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_icon_lock.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/icon_lock.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_icon_user.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/icon_user.png"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_note.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/note.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_tips_happy.jpg.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/tips_happy.jpg"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/ic_launcher_background.xml"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_home.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_detail_majalah.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_detail_majalah.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_icon_arrow.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/icon_arrow.png"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_list_magazine.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/list_magazine.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_icon_mail.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/icon_mail.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_depresi.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_depresi.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_mascot_hugu.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/mascot_hugu.png"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.dicoding.huguapp-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/xml_backup_rules.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/drawable_icon_user.png.flat",
-        "source": "com.dicoding.huguapp-main-46:/drawable/icon_user.png"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_icon_lock.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/icon_lock.png"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/xml_backup_rules.xml.flat",
-        "source": "com.dicoding.huguapp-main-46:/xml/backup_rules.xml"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.dicoding.huguapp-merged_res-44:/xml_data_extraction_rules.xml.flat",
-        "source": "com.dicoding.huguapp-main-46:/xml/data_extraction_rules.xml"
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_user_hugu.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/user_hugu.png"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_slefcare.jpg.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/slefcare.jpg"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_chatbot.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_chatbot.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_majalah.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_majalah.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_kelola_stress.jpg.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/kelola_stress.jpg"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_result.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_result.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_login.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_detail_majalah.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_detail_majalah.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_icon_massage.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/icon_massage.png"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_anxiwty.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_anxiwty.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_splash_screen.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_icon_home.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/icon_home.png"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_activity_quiz.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_tawa_dalam_stress.jpeg.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/tawa_dalam_stress.jpeg"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/menu_bottom_navigation.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/menu/bottom_navigation.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/drawable_icon_mail.png.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/drawable/icon_mail.png"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_stress.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_stress.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/navigation_hugunavgraph.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/navigation/hugunavgraph.xml"
+    },
+    {
+        "merged": "com.dicoding.huguapplication.app-merged_res-53:/layout_fragment_profile.xml.flat",
+        "source": "com.dicoding.huguapplication.app-main-55:/layout/fragment_profile.xml"
     }
 ]

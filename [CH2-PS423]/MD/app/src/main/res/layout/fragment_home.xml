@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="HUG U"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_80"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appslogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Care of Yourself"
+        android:textStyle="normal"
+        android:textSize="30dp"
+        android:textColor="@color/blue_60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appname" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_hugu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appslogan" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_kuesioner"
+        android:layout_width="327dp"
+        android:layout_height="96dp"
+        android:backgroundTint="@color/blue_60"
+        android:text="How Are You Today?"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/appslogan"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_majalah"
+        android:layout_width="368dp"
+        android:layout_height="73dp"
+        android:backgroundTint="@color/blue_1o"
+        android:text="Something To Read"
+        android:textSize="30dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/blue_80"
+        app:cornerRadius="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

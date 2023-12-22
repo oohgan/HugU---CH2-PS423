@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dicoding.huguapp"
+    package="com.dicoding.huguapplication"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -9,10 +9,10 @@
         android:targetSdkVersion="33" />
 
     <permission
-        android:name="com.dicoding.huguapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.dicoding.huguapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.dicoding.huguapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.dicoding.huguapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -25,12 +25,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HugUApp" >
+        android:testOnly="true"
+        android:theme="@style/Theme.HugUApplication" >
         <activity
-            android:name="com.dicoding.huguapp.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.HugUApp" >
+            android:name="com.dicoding.huguapplication.ui.main.SplashScreenActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,15 +37,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="androidx.activity.ComponentActivity"
-            android:exported="true" />
+            android:name="com.dicoding.huguapplication.ui.login.RegisterActivity"
+            android:exported="false" >
+        </activity>
         <activity
-            android:name="androidx.compose.ui.tooling.PreviewActivity"
-            android:exported="true" />
+            android:name="com.dicoding.huguapplication.ui.kuesioner.KuesionerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.huguapplication.ui.kuesioner.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.huguapplication.ui.home.DetailMajalahActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.huguapplication.ui.home.MajalahActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.dicoding.huguapplication.ui.main.MainActivity"
+            android:exported="true" >
+        </activity>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.dicoding.huguapp.androidx-startup"
+            android:authorities="com.dicoding.huguapplication.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -58,6 +71,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

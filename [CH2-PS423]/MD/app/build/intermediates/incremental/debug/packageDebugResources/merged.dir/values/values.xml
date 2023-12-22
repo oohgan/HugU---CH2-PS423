@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="data_description">
+        <item>Hidup ini seperti petualangan besar, tapi seringkali kita lupa bahwa menjaga pikiran kita sehat sama pentingnya dengan menjaga tubuh kita tetap bugar. Nah, ayo kita bahas tentang kesehatan mental tanpa harus terdengar seperti guru spiritual atau psikolog! Yuk, simak beberapa trik asyik untuk mendongkrak semangat dan menenangkan pikiran.</item>
+        <item>Mungkin kamu pernah jadi bintang utama dalam serial drama pikiran sendiri. Percayalah, membuatnya berhenti sejenak itu penting! Coba deh, jika merasa terlalu terbebani, buatlah waktu untuk berjalan-jalan di alam terbuka. Hutan, pantai, atau taman akan menjadi teman yang luar biasa untuk merilekskan pikiranmu.</item>
+        <item>Tidak ada yang lebih menyegarkan daripada humor! Sempatkan diri untuk melihat meme lucu atau menonton video stand-up comedy favoritmu. Tertawa adalah obat mujarab untuk menyingkirkan stres dan membuatmu merasa lebih ringan.</item>
+        <item>Sosial media bisa jadi tempat yang asyik, tapi juga bisa jadi sumber kekhawatiran dan tekanan. Cobalah untuk mengurangi waktu di media sosial jika merasa terbebani. Fokuslah pada konten yang menginspirasi dan membangun, dan jangan ragu untuk unfollow hal-hal yang bikin stres.</item>
+        <item>angan pernah meremehkan kekuatan self-care. Bagi diri sendiri waktu untuk melakukan hal-hal yang kamu suka. Mungkin itu mandi berbusa yang panjang, membuat kerajinan tangan, atau menulis di jurnal. Lakukan hal-hal yang membuatmu merasa baik.</item>
+    </string-array>
+    <string-array name="data_name">
+        <item>Tips Sederhana yang Bikin Pikiran Happy!</item>
+        <item>Drama, Stres, dan Maraton Pikiran!</item>
+        <item>Meme, Humor, dan Kesehatan Pikiran</item>
+        <item>MSosial Media: Berteman dengan Bijak</item>
+        <item>Self-care, Bukan Sekadar Trend</item>
+    </string-array>
+    <integer-array name="data_poster">
+        <item>@drawable/tips_happy</item>
+        <item>@drawable/kelola_stress</item>
+        <item>@drawable/tawa_dalam_stress</item>
+        <item>@drawable/teman_media</item>
+        <item>@drawable/slefcare</item>
+    </integer-array>
+    <color name="background">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
     <color name="blue">#252CDB</color>
     <color name="blue_100">#002133</color>
@@ -7,15 +29,19 @@
     <color name="blue_40">#6BCAFF</color>
     <color name="blue_60">#259ADB</color>
     <color name="blue_80">#065682</color>
+    <color name="card_background">#E5F6FF</color>
     <color name="green">#29DB25</color>
     <color name="red">#DB2525</color>
+    <color name="text_color">#002133</color>
+    <color name="text_secondery_color">#44464e</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">HugU</string>
-    <string name="daftar">Daftar</string>
-    <string name="email">Email</string>
-    <string name="masuk">Masuk</string>
-    <string name="nama">Nama</string>
-    <string name="password">Password</string>
-    <string name="slogan">Take Care of Your Mental Health</string>
-    <style name="Theme.HugUApp" parent="android:Theme.Material.Light.NoActionBar"/>
+    <string name="app_name">HugUApplication</string>
+    <string name="description">Deskripsi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_majalah">Title Majalah</string>
+    <style name="Base.Theme.HugUApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.HugUApplication" parent="Base.Theme.HugUApplication"/>
 </resources>

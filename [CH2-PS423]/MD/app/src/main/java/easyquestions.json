@@ -1,0 +1,130 @@
+{
+  "easyquestions": [
+    {
+      "question": "Sepertinya saya tidak merasakan perasaan positif sama sekali.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Sepertinya saya tidak bisa maju atau berubah.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa tidak ada lagi yang bisa diharapkan.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa sedih dan depresi.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa kehilangan minat pada segala hal.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa Saya tidak berharga sebagai manusia.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa hidup ini tidak berguna.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Sepertinya saya tidak mendapatkan kesenangan apapun dari apa yang saya.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa sedih.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya tidak bisa merasa antusias terhadap apa pun.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa saya tidak berharga.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya tidak melihat adanya harapan di masa depan.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa hidup ini tidak ada artinya.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    },
+    {
+      "question": "Saya merasa sulit untuk meningkatkan inisiatif dalam melakukan sesuatu.",
+      "options": {
+        "0": {"text": "Tidak Sama Sekali", "points": 0},
+        "1": {"text": "Sedikit merasakan dalam tingkat yang kecil", "points": 1},
+        "2": {"text": "Lumayan merasakan dalam tingkat yang sedang", "points": 2},
+        "3": {"text": "Banget atau sebagian besar waktu merasakan", "points": 3}
+      }
+    }
+  ]
+}

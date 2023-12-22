@@ -10,4 +10,9 @@
     <color name="red">#DB2525</color>
     <color name="green">#29DB25</color>
     <color name="blue">#252CDB</color>
+
+    <color name="background">#FFFFFFFF</color>
+    <color name="card_background">#E5F6FF</color>
+    <color name="text_color">#002133</color>
+    <color name="text_secondery_color">#44464e</color>
 </resources>

@@ -1,10 +1,32 @@
 <resources>
-    <string name="app_name">HugU</string>
-    <string name="slogan">Take Care of Your Mental Health</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="nama">Nama</string>
-    <string name="daftar">Daftar</string>
-    <string name="masuk">Masuk</string>
+    <string name="app_name">HugUApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Deskripsi</string>
+    <string name="title_majalah">Title Majalah</string>
+
+
+    <string-array name="data_name">
+        <item>Tips Sederhana yang Bikin Pikiran Happy!</item>
+        <item>Drama, Stres, dan Maraton Pikiran!</item>
+        <item>Meme, Humor, dan Kesehatan Pikiran</item>
+        <item>MSosial Media: Berteman dengan Bijak</item>
+        <item>Self-care, Bukan Sekadar Trend</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Hidup ini seperti petualangan besar, tapi seringkali kita lupa bahwa menjaga pikiran kita sehat sama pentingnya dengan menjaga tubuh kita tetap bugar. Nah, ayo kita bahas tentang kesehatan mental tanpa harus terdengar seperti guru spiritual atau psikolog! Yuk, simak beberapa trik asyik untuk mendongkrak semangat dan menenangkan pikiran.</item>
+        <item>Mungkin kamu pernah jadi bintang utama dalam serial drama pikiran sendiri. Percayalah, membuatnya berhenti sejenak itu penting! Coba deh, jika merasa terlalu terbebani, buatlah waktu untuk berjalan-jalan di alam terbuka. Hutan, pantai, atau taman akan menjadi teman yang luar biasa untuk merilekskan pikiranmu.</item>
+        <item>Tidak ada yang lebih menyegarkan daripada humor! Sempatkan diri untuk melihat meme lucu atau menonton video stand-up comedy favoritmu. Tertawa adalah obat mujarab untuk menyingkirkan stres dan membuatmu merasa lebih ringan.</item>
+        <item>Sosial media bisa jadi tempat yang asyik, tapi juga bisa jadi sumber kekhawatiran dan tekanan. Cobalah untuk mengurangi waktu di media sosial jika merasa terbebani. Fokuslah pada konten yang menginspirasi dan membangun, dan jangan ragu untuk unfollow hal-hal yang bikin stres.</item>
+        <item>angan pernah meremehkan kekuatan self-care. Bagi diri sendiri waktu untuk melakukan hal-hal yang kamu suka. Mungkin itu mandi berbusa yang panjang, membuat kerajinan tangan, atau menulis di jurnal. Lakukan hal-hal yang membuatmu merasa baik.</item>
+    </string-array>
+    <integer-array name="data_poster">
+        <item>@drawable/tips_happy</item>
+        <item>@drawable/kelola_stress</item>
+        <item>@drawable/tawa_dalam_stress</item>
+        <item>@drawable/teman_media</item>
+        <item>@drawable/slefcare</item>
+    </integer-array>
 
 </resources>

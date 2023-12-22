@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.dicoding.huguapp",
+  "applicationId": "com.dicoding.huguapplication",
   "variantName": "debug",
   "elements": [
     {

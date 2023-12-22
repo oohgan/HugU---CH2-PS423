@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hugunavgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.dicoding.huguapplication.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/chatbotFragment"
+        android:name="com.dicoding.huguapplication.ui.chatbot.ChatbotFragment"
+        android:label="fragment_chatbot"
+        tools:layout="@layout/fragment_chatbot" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.dicoding.huguapplication.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/depresiFragment"
+        android:name="com.dicoding.huguapplication.ui.kuesioner.DepresiFragment"
+        android:label="fragment_depresi"
+        tools:layout="@layout/fragment_depresi" />
+    <fragment
+        android:id="@+id/stressFragment"
+        android:name="com.dicoding.huguapplication.ui.kuesioner.StressFragment"
+        android:label="fragment_stress"
+        tools:layout="@layout/fragment_stress" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.luthfir.examplelogin.ui.login.LoginActivity"
+        android:label="LoginActivity" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.dicoding.huguapplication.ui.login.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/splashScreenActivity"
+        android:name="com.dicoding.huguapplication.ui.main.SplashScreenActivity"
+        android:label="SplashScreenActivity"
+        app:action="login" />
+</navigation>

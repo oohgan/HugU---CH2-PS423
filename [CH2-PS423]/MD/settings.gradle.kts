@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "HugUApp"
+rootProject.name = "HugUApplication"
 include(":app")
  
