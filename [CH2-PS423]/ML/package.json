@@ -1,0 +1,15 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "The chatbot is designed to act as basic conversations, mental health FAQ, classical therapy conversations, and general advice.\r The model is created using Natural Languange Processing with RNN using GRU (Gated Recurennt Unit) and embedding technique using GloVe and Indonesian dictionary word from [here](https://github.com/ardwort/freq-dist-id)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.1.0"
+  }
+}
